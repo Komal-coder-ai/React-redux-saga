@@ -1,8 +1,5 @@
+import { FETCH_POSTS_REQUEST, FETCH_POSTS_SUCCESS, FETCH_POSTS_FAILURE } from '../types';
 
-
-import { FETCH_POSTS_FAILURE, FETCH_POSTS_REQUEST, FETCH_POSTS_SUCCESS } from "../types";
-
-FETCH_POSTS_FAILURE
 export const fetchPostsRequest = () => ({
   type: FETCH_POSTS_REQUEST,
 });
